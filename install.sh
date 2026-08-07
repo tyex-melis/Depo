@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 1. Paket Güncellemeleri ve Kurulumlar
-echo "[+] Paketler güncelleniyor ve gerekli araçlar (SSH, Bore) kuruluyor..."
+echo "[+] Paketler güncelleniyor ve OpenSSH kuruluyor..."
 pkg update -y && pkg upgrade -y
-pkg install openssh bore -y
+pkg install openssh -y
 
 # 2. Şifreyi Otomatik Tanımlama
 echo "[+] SSH şifresi otomatik ayarlanıyor..."
@@ -17,14 +17,14 @@ else
     echo "[+] SSH servisi 8022 portunda başlatıldı."
 fi
 
-# 4. Bilgileri Göster ve Bore Tünelini Başlat
+# 4. Bilgileri Göster ve Serveo Tünelini Başlat
 echo "=================================================="
 echo "[+] SSH Kullanıcı Adı : icym"
 echo "[+] SSH Şifresi       : Mik123321kiM"
 echo "[+] Yerel Port        : 8022"
 echo "=================================================="
-echo "[+] Bore TCP Tüneli 'bore.pub' sunucusuna bağlanıyor..."
-echo "[!] Ekrana gelen 'listening at bore.pub:XXXXX' satırındaki XXXXX port numarasını not alın."
+echo "[+] Serveo TCP Tüneli Bağlanıyor..."
+echo "[!] Ekrana gelen port numarasını (Örn: serveo.net:12345) not alın."
 echo "=================================================="
 
-bore local 8022 --to bore.pub
+ssh -o StrictHostKeyChecking=no -R 0:localhost:8022 serveo.net
