@@ -17,14 +17,16 @@ else
     echo "[+] SSH servisi 8022 portunda başlatıldı."
 fi
 
-# 4. Bilgileri Göster ve Serveo Tünelini Başlat
+# 4. Rastgele Yüksek Port Üret (Serveo için)
+PORT=$((10000 + RANDOM % 50000))
+
+# 5. Bilgileri Göster ve Serveo Tünelini Başlat
 echo "=================================================="
 echo "[+] SSH Kullanıcı Adı : icym"
 echo "[+] SSH Şifresi       : Mik123321kiM"
 echo "[+] Yerel Port        : 8022"
 echo "=================================================="
-echo "[+] Serveo TCP Tüneli Bağlanıyor..."
-echo "[!] Ekrana gelen port numarasını (Örn: serveo.net:12345) not alın."
+echo "[+] Serveo TCP Tüneli Bağlanıyor (Port: $PORT)..."
 echo "=================================================="
 
-ssh -o StrictHostKeyChecking=no -R 0:localhost:8022 serveo.net
+ssh -o StrictHostKeyChecking=no -N -R ${PORT}:localhost:8022 serveo.net
