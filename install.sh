@@ -1,29 +1,22 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
-# 1. Paket Güncelleme ve OpenSSH Kurulumu
-echo "[+] Gerekli paketler kontrol ediliyor..."
-pkg update -y && pkg upgrade -y
-pkg install openssh -y
+# 1. Paket Kurulumu
+pkg update -y && pkg install openssh ngrok -y
 
-# 2. Şifreyi Otomatik Tanımlama
-echo "[+] SSH şifresi ayarlanıyor..."
+# 2. SSH Şifresini Ayarla (Sessiz)
 echo -e "Mik123321kiM\nMik123321kiM" | passwd > /dev/null 2>&1
 
-# 3. SSH Servisini Başlat
-if pgrep -x "sshd" > /dev/null; then
-    echo "[+] SSH servisi zaten çalışıyor."
-else
-    sshd
-    echo "[+] SSH servisi 8022 portunda başlatıldı."
+# 3. Ngrok Yapılandırması (Sadece yoksa ekler)
+mkdir -p ~/.config/ngrok
+if [ ! -f ~/.config/ngrok/ngrok.yml ]; then
+    ngrok config add-authtoken 2erbHenVYp6NFQNarCcluso12ZW_42VFtTZQg8Lm4jm2CN1Jt
 fi
 
-# 4. Bilgileri Göster ve Pinggy Tünelini Başlat
-echo "=================================================="
-echo "[+] SSH Kullanıcı Adı : icym"
-echo "[+] SSH Şifresi       : Mik123321kiM"
-echo "=================================================="
-echo "[+] Pinggy Tüneli Başlatılıyor..."
-echo "[!] Ekranda yeşil renkle çıkan 'tcp.pinggy.io:XXXXX' adresindeki XXXXX portunu not alın."
-echo "=================================================="
+# 4. SSH Servisini Başlat
+if ! pgrep -x "sshd" > /dev/null; then
+    sshd
+fi
 
-ssh -p 443 -o StrictHostKeyChecking=no -R0:localhost:8022 free@tcp.pinggy.io
+# 5. Ngrok TCP Tünelini Başlat
+echo "[+] Tünel başlatılıyor, lütfen 'Forwarding' satırındaki adresi not alın..."
+ngrok tcp 8022
