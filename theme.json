@@ -1,5 +1,5 @@
 {
-    "name": "ClearVision Pink v1.2.6",
+    "name": "ClearVision Light Pink v1.2.6",
     "description": "Clear Vision paints sweet pink serenity across the canvas of our Discord realm.",
     "authors": [
       {
@@ -10,27 +10,27 @@
     "semanticColors": {
         "ANDROID_RIPPLE": [
             "#ff6584",
-            "#ff6584",
+            "#ff85a1",
             "#ff6584"
         ],
         "ACTIVITY_CARD_BACKGROUND": [
             "#ff4d6d",
-            "#c9184a",
+            "#ffe0e9",
             "#ff4d6d"
         ],
         "BACKGROUND_FLOATING": [
             "#331a2a",
-            "#331a2a",
+            "#ffffff",
             "#331a2a"
         ],
         "BACKGROUND_MENTIONED": [
             "#ff85a126",
-            "#ff85a126",
+            "#ff4d6d1a",
             "#ff85a126"
         ],
         "BACKGROUND_MENTIONED_HOVER": [
             "#ff85a133",
-            "#ff85a133",
+            "#ff4d6d33",
             "#ff85a133"
         ],
         "BACKGROUND_MESSAGE_HOVER": [
@@ -40,77 +40,77 @@
         ],
         "BACKGROUND_MOBILE_PRIMARY": [
             "#20111a",
-            "#20111a",
+            "#fff0f5",
             "#20111a"
         ],
         "BACKGROUND_MOBILE_SECONDARY": [
             "#190c14",
-            "#190c14",
+            "#ffe6ed",
             "#190c14"
         ],
         "BACKGROUND_ACCENT": [
             "#ff85a1",
-            "#ff85a1",
+            "#ff4d6d",
             "#ff85a1"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
             "#421d33",
-            "#421d33",
+            "#ffd8e4",
             "#421d33"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
             "#ff658426",
-            "#20111a26",
+            "#ff4d6d33",
             "#ff658426"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
             "#ff65841a",
-            "#20111a1a",
+            "#ff4d6d1a",
             "#ff65841a"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
             "#ff658466",
-            "#ff658466",
+            "#ff4d6d4d",
             "#ff658466"
         ],
         "BACKGROUND_NESTED_FLOATING": [
             "#291522",
-            "#ffe6ed",
+            "#ffffff",
             "#190c14"
         ],
         "BACKGROUND_PRIMARY": [
             "#20111a",
-            "#20111a",
+            "#fff0f5",
             "#20111a"
         ],
         "BACKGROUND_SECONDARY": [
             "#190c14",
-            "#190c14",
+            "#ffe6ed",
             "#190c14"
         ],
         "BACKGROUND_SECONDARY_ALT": [
             "#14080f",
-            "#14080f",
+            "#ffd8e4",
             "#14080f"
         ],
         "BACKGROUND_TERTIARY": [
             "#0f050a",
-            "#0f050a",
+            "#fccfdc",
             "#0f050a"
         ],
         "BG_BACKDROP": [
             "#20111ab3",
-            "#20111ab3",
+            "#4a152566",
             "#20111ab3"
         ],
         "BG_BASE_PRIMARY": [
             "#14080f",
-            "#14080f",
+            "#fff0f5",
             "#14080f"
         ],
         "BG_SURFACE_OVERLAY_TMP": [
             "#14080f",
-            "#14080f",
+            "#fff0f5",
             "#14080f"
         ],
         "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
@@ -120,22 +120,22 @@
         ],
         "CARD_PRIMARY_BG": [
             "#190c14",
-            "#190c14",
+            "#ffffff",
             "#190c14"
         ],
         "CARD_SECONDARY_BG": [
             "#190c14",
-            "#190c14",
+            "#ffe6ed",
             "#190c14"
         ],
         "CHANNELS_DEFAULT": [
             "#b37b92",
-            "#b37b92",
+            "#8c4a60",
             "#b37b92"
         ],
         "CHANNEL_ICON": [
             "#ff658466",
-            "#ff658466",
+            "#ff4d6d99",
             "#ff658466"
         ],
         "CHAT_BACKGROUND": [
@@ -145,67 +145,67 @@
         ],
         "CHAT_SWIPE_TO_REPLY_BACKGROUND": [
             "#26131f",
-            "#26131f",
+            "#ffe6ed",
             "#26131f"
         ],
         "CHANNEL_TEXT_AREA_PLACEHOLDER": [
             "#ffb3c6",
-            "#ffb3c6",
+            "#a85e75",
             "#ffb3c6"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
             "#291522",
-            "#ffe6ed",
+            "#ffd8e4",
             "#190c14"
         ],
         "DEPRECATED_CARD_BG": [
             "#291522",
-            "#ffe6ed",
+            "#ffffff",
             "#190c14"
         ],
         "DEPRECATED_CARD_EDITABLE_BG": [
             "#291522",
-            "#ffe6ed",
+            "#ffffff",
             "#190c14"
         ],
         "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [
             "#291522",
-            "#ffe6ed",
+            "#ffd8e4",
             "#190c14"
         ],
         "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": [
             "#291522",
-            "#ffe6ed",
+            "#a85e75",
             "#190c14"
         ],
         "DEPRECATED_STORE_BG": [
             "#ffe6ed",
-            "#291522",
+            "#fff0f5",
             "#ffe6ed"
         ],
         "DEPRECATED_TEXT_INPUT_BG": [
             "#291522",
-            "#ffe6ed",
+            "#ffd8e4",
             "#190c14"
         ],
         "DEPRECATED_TEXT_INPUT_BORDER": [
             "#291522",
-            "#ffe6ed",
+            "#ffb3c6",
             "#190c14"
         ],
         "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": [
             "#291522",
-            "#ffe6ed",
+            "#ffd8e4",
             "#190c14"
         ],
         "DEPRECATED_TEXT_INPUT_BORDER_HOVER": [
             "#291522",
-            "#ffe6ed",
+            "#ff4d6d",
             "#190c14"
         ],
         "DEPRECATED_TEXT_INPUT_PREFIX": [
             "#291522",
-            "#ffe6ed",
+            "#4a1525",
             "#190c14"
         ],
         "ELEVATION_HIGH": [
@@ -225,47 +225,47 @@
         ],
         "EMBED_BACKGROUND": [
             "#291522b3",
-            "#291522b3",
+            "#ffd8e4cc",
             "#291522b3"
         ],
         "ELEVATION_STROKE": [
             "#291522",
-            "#ffe6ed",
+            "#ffb3c6",
             "#190c14"
         ],
         "EXPRESSION_PICKER_BG": [
             "#14080f",
-            "#14080f",
+            "#fff0f5",
             "#14080f"
         ],
         "FOCUS_PRIMARY": [
             "#291522",
-            "#ffe6ed",
+            "#ff4d6d",
             "#190c14"
         ],
         "GUILD_HEADER_TEXT_SHADOW": [
             "#291522",
-            "#ffe6ed",
+            "#ffffff",
             "#190c14"
         ],
         "HEADER_PRIMARY": [
             "#ffe6ed",
-            "#291522",
+            "#4a1525",
             "#ffe6ed"
         ],
         "HEADER_SECONDARY": [
             "#ff6584",
-            "#ff6584",
+            "#8c4a60",
             "#ff6584"
         ],
         "INFO_DANGER_BACKGROUND": [
             "#291522",
-            "#ffe6ed",
+            "#ffe0e9",
             "#220d18"
         ],
         "INFO_DANGER_FOREGROUND": [
             "#20111a",
-            "#ffb3c6",
+            "#c9184a",
             "#190c14"
         ],
         "INFO_DANGER_TEXT": [
@@ -275,162 +275,162 @@
         ],
         "INFO_HELP_BACKGROUND": [
             "#291522",
-            "#ffe6ed",
+            "#ffe0e9",
             "#190c14"
         ],
         "INFO_HELP_FOREGROUND": [
             "#220d18",
-            "#ffccd5",
+            "#ff4d6d",
             "#190c14"
         ],
         "INFO_HELP_TEXT": [
             "#ffe6ed",
-            "#291522",
+            "#4a1525",
             "#ffb3c6"
         ],
         "INFO_POSITIVE_BACKGROUND": [
             "#291522",
-            "#ffe6ed",
+            "#e8f5e9",
             "#190c14"
         ],
         "INFO_POSITIVE_FOREGROUND": [
             "#220d18",
-            "#ffccd5",
+            "#2e7d32",
             "#190c14"
         ],
         "INFO_POSITIVE_TEXT": [
             "#ffe6ed",
-            "#291522",
+            "#1b5e20",
             "#ffe6ed"
         ],
         "INFO_WARNING_BACKGROUND": [
             "#291522",
-            "#ffe6ed",
+            "#fff8e1",
             "#190c14"
         ],
         "INFO_WARNING_FOREGROUND": [
             "#220d18",
-            "#ffccd5",
+            "#f57f17",
             "#190c14"
         ],
         "INFO_WARNING_TEXT": [
             "#ffe6ed",
-            "#291522",
+            "#b71c1c",
             "#ffe6ed"
         ],
         "INPUT_BACKGROUND": [
             "#331a2a",
-            "#331a2a",
+            "#ffd8e4",
             "#331a2a"
         ],
         "INTERACTIVE_ACTIVE": [
             "#ff6584",
-            "#ff6584",
+            "#ff4d6d",
             "#ff6584"
         ],
         "INTERACTIVE_HOVER": [
             "#ffccd5",
-            "#ff85a1",
+            "#c9184a",
             "#ffccd5"
         ],
         "INTERACTIVE_MUTED": [
             "#664050",
-            "#664050",
+            "#cca4b1",
             "#664050"
         ],
         "INTERACTIVE_NORMAL": [
             "#ffb3c6",
-            "#ffb3c6",
+            "#5c1d31",
             "#ffb3c6"
         ],
         "LOGO_PRIMARY": [
             "#ff85a1",
-            "#c9184a",
+            "#ff4d6d",
             "#ff85a1"
         ],
         "MENTION_FOREGROUND": [
             "#ffffff",
-            "#ffffff",
+            "#ff4d6d",
             "#ffffff"
         ],
         "MODAL_FOOTER_BACKGROUND": [
             "#291522",
-            "#ffb3c6",
+            "#ffe6ed",
             "#190c14"
         ],
         "PANEL_BG": [
             "#14080f",
-            "#14080f",
+            "#fff0f5",
             "#14080f"
         ],
         "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
             "#190c14",
-            "#190c14",
+            "#ffd8e4",
             "#190c14"
         ],
         "REDESIGN_BUTTON_SECONDARY_BORDER": [
             "#421d33",
-            "#421d33",
+            "#ffb3c6",
             "#421d33"
         ],
         "SCROLLBAR_AUTO_THUMB": [
             "#331a2a",
-            "#331a2a",
+            "#ffb3c6",
             "#331a2a"
         ],
         "SCROLLBAR_AUTO_TRACK": [
             "#20111a",
-            "#ffb3c6",
+            "#ffe6ed",
             "#190c14"
         ],
         "SCROLLBAR_THIN_THUMB": [
             "#331a2a",
-            "#331a2a",
+            "#ffb3c6",
             "#331a2a"
         ],
         "SCROLLBAR_THIN_TRACK": [
             "#20111a",
-            "#ffb3c6",
+            "#ffe6ed",
             "#190c14"
         ],
         "STATUS_DANGER_BACKGROUND": [
             "#ff4d6d",
-            "#c9184a",
+            "#ff4d6d",
             "#ff4d6d"
         ],
         "STATUS_DANGER_TEXT": [
             "#ffccd5",
-            "#c9184a",
+            "#ffffff",
             "#ffccd5"
         ],
         "STATUS_POSITIVE_BACKGROUND": [
             "#70e000",
-            "#38b000",
+            "#2e7d32",
             "#70e000"
         ],
         "STATUS_POSITIVE_TEXT": [
             "#ffe6ed",
-            "#291522",
+            "#ffffff",
             "#ffe6ed"
         ],
         "STATUS_WARNING_BACKGROUND": [
             "#ffb703",
-            "#ffb703",
+            "#f57f17",
             "#ffb703"
         ],
         "STATUS_WARNING_TEXT": [
             "#ff4d6d",
-            "#c9184a",
+            "#ffffff",
             "#ff4d6d"
         ],
         "TYPING_INDICATOR_BG": [
             "#00000066",
-            "#00000066",
+            "#ff4d6d33",
             "#00000066"
         ],
         "TEXTBOX_MARKDOWN_SYNTAX": [
             "#ff6584",
-            "#ff6584",
+            "#c9184a",
             "#ff6584"
         ],
         "TEXT_DANGER": [
@@ -440,97 +440,98 @@
         ],
         "TEXT_LINK": [
             "#ff6584",
-            "#ff6584",
+            "#ff4d6d",
             "#ff6584"
         ],
         "TEXT_LINK_LOW_SATURATION": [
             "#ffe6ed",
-            "#291522",
+            "#8c4a60",
             "#ffe6ed"
         ],
         "TEXT_MUTED": [
             "#b37b92",
-            "#b37b92",
+            "#8c4a60",
             "#b37b92"
         ],
         "TEXT_NORMAL": [
             "#ffe6ed",
-            "#ffe6ed",
+            "#4a1525",
             "#ffe6ed"
         ],
         "TEXT_POSITIVE": [
             "#70e000",
-            "#38b000",
+            "#2e7d32",
             "#70e000"
         ],
         "TEXT_WARNING": [
             "#ffb703",
-            "#ffb703",
+            "#b71c1c",
             "#ffb703"
         ]
     },
     "rawColors": {
-        "BG_GRADIENT_CRIMSON_MOON_2": "#14080f",
-        "PRIMARY_100": "#ffccd5",
-        "PRIMARY_130": "#ffe6ed",
-        "PRIMARY_200": "#ffb3c6",
-        "PRIMARY_230": "#ffb3c6",
-        "PRIMARY_300": "#ff85a1",
-        "PRIMARY_360": "#ff6584",
+        "BG_GRADIENT_CRIMSON_MOON_2": "#fff0f5",
+        "PRIMARY_100": "#4a1525",
+        "PRIMARY_130": "#4a1525",
+        "PRIMARY_200": "#5c1d31",
+        "PRIMARY_230": "#5c1d31",
+        "PRIMARY_300": "#8c4a60",
+        "PRIMARY_360": "#ff4d6d",
         "PRIMARY_400": "#c9184a",
-        "PRIMARY_460": "#20111a",
-        "PRIMARY_500": "#a4133c",
-        "PRIMARY_560": "#331a2a",
-        "PRIMARY_600": "#20111a",
-        "PRIMARY_630": "#14080f",
-        "PRIMARY_660": "#14080f",
-        "PRIMARY_700": "#14080f",
-        "PRIMARY_800": "#14080f",
-        "PRIMARY_900": "#291522",
-        "BLACK_500": "#14080f",
-        "BLACK_530": "#14080f",
-        "BLACK_560": "#14080f",
-        "BLACK_600": "#14080f",
-        "BLACK_630": "#14080f",
-        "BLACK_660": "#14080f",
-        "BLACK_700": "#14080f",
-        "BLACK_730": "#14080f",
-        "BLACK_760": "#14080f",
-        "BLACK_800": "#14080f",
-        "BLACK_830": "#14080f",
-        "BLACK_860": "#14080f",
-        "BLACK_900": "#14080f",
+        "PRIMARY_460": "#fff0f5",
+        "PRIMARY_500": "#ff4d6d",
+        "PRIMARY_560": "#ffe6ed",
+        "PRIMARY_600": "#fff0f5",
+        "PRIMARY_630": "#ffffff",
+        "PRIMARY_660": "#ffffff",
+        "PRIMARY_700": "#ffffff",
+        "PRIMARY_800": "#ffffff",
+        "PRIMARY_900": "#ffd8e4",
+        "BLACK_500": "#ffffff",
+        "BLACK_530": "#ffffff",
+        "BLACK_560": "#ffffff",
+        "BLACK_600": "#ffffff",
+        "BLACK_630": "#ffffff",
+        "BLACK_660": "#ffffff",
+        "BLACK_700": "#ffffff",
+        "BLACK_730": "#ffffff",
+        "BLACK_760": "#ffffff",
+        "BLACK_800": "#ffffff",
+        "BLACK_830": "#ffffff",
+        "BLACK_860": "#ffffff",
+        "BLACK_900": "#ffffff",
         "BRAND_230": "#ffffff",
-        "BRAND_260": "#ffccd5",
+        "BRAND_260": "#ffe6ed",
         "BRAND_360": "#ff85a1",
-        "BRAND_500": "#ff6584",
-        "BRAND_560": "#ff85a1",
+        "BRAND_500": "#ff4d6d",
+        "BRAND_560": "#ff6584",
         "RED_400": "#ff4d6d",
         "RED_430": "#ff4d6d",
         "RED_460": "#ff4d6d",
-        "GREEN_360": "#70e000",
-        "WHITE_500": "#ffe6ed",
-        "YELLOW_300": "#ffb703",
-        "PLUM_20": "#14080f",
-        "PLUM_16": "#190c14",
-        "PLUM_22": "#26131f"
+        "GREEN_360": "#2e7d32",
+        "WHITE_500": "#4a1525",
+        "YELLOW_300": "#f57f17",
+        "PLUM_20": "#fff0f5",
+        "PLUM_16": "#ffe6ed",
+        "PLUM_22": "#ffd8e4"
     },
     "background": {
-        "url": "https://raw.githubusercontent.com/gizmobot11/aaaaa/refs/heads/main/IMG-20260826-WA0001.jpg",
+        "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark.jpg",
         "alpha": 1
     },
     "plus": {
         "version": 0,
         "customOverlays": true,
         "icons": {
-            "ic_mic_neutral": "#ff85a1",
-            "ic_mic_muted_neutral": "#ff85a1",
-            "ic_soundboard": "#ff85a1",
-            "ic_soundboard_muted": "#ff85a1",
-            "ic_video": "#ff85a1",
-            "ic_video_disabled": "#ff85a1"
+            "ic_mic_neutral": "#ff4d6d",
+            "ic_mic_muted_neutral": "#ff4d6d",
+            "ic_soundboard": "#ff4d6d",
+            "ic_soundboard_muted": "#ff4d6d",
+            "ic_video": "#ff4d6d",
+            "ic_video_disabled": "#ff4d6d"
         },
         "iconpack": "rosiecord-plumpy"
     },
     "spec": 2
     }
+            
