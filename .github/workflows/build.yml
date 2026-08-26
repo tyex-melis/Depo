@@ -1,0 +1,35 @@
+name: Build EXE with Nuitka
+
+on:
+  workflow_dispatch:      # Actions sekmesinden manuel tetikleme
+  push:
+    branches: [ main ]    # main'e her push'ta otomatik çalışır (istemezsen bu satırları silebilirsin)
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Repoyu çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bağımlılıkları yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install nuitka
+          pip install PySide6 requests urllib3 pywin32 pyautogui DrissionPage pygetwindow pyperclip pillow
+
+      - name: Nuitka ile derle
+        run: |
+          python -m nuitka --standalone --onefile --enable-plugin=pyside6 --windows-console-mode=disable --include-package=win32gui,win32con,pyautogui,DrissionPage,pygetwindow,pyperclip,PIL,requests,urllib3 --output-filename=latest.exe latest.py
+
+      - name: EXE'yi artifact olarak yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-exe
+          path: latest.exe
